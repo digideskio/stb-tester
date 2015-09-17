@@ -34,6 +34,13 @@ UNRELEASED
       real hardware.  This approach can be particularly useful to reduce the
       cost of test maintainance.
 
+* New command `stbt docker`.  This is intended to make it easier to run stbt
+  when physical hardware is not required.  This makes it easier to run
+  selftests on your test-packs in CI i.e. using Jenkins.  It is intended to be
+  copied into the test-packs themselves and only depends on a working Python
+  and docker installation.  In the future it will allow stb-tester to be used
+  on Windows and Mac OS X.
+
 * New `roku` remote control that uses the [Roku HTTP control protocol].
   Stb-tester's [standard key names] (like "KEY_HOME") will be converted to the
   corresponding Roku key name, or you can use the [Roku key names] directly.

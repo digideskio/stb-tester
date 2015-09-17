@@ -44,7 +44,7 @@ case "$1" in
         usage; exit 0;;
     -v|--version)
         echo "stb-tester $STBT_VERSION"; exit 0;;
-    run|record|batch|config|control|lint|power|screenshot|templatematch|tv)
+    run|record|batch|config|control|docker|lint|power|screenshot|templatematch|tv)
         exec @LIBEXECDIR@/stbt/stbt-"$@";;
     # Experimental sub-commands:
     camera)
