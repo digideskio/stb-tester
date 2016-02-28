@@ -12,6 +12,7 @@
 #/     batch          Run stbt scripts repeatedly, create html report
 #/     config         Print configuration value
 #/     control        Send remote control signals
+#/     docker         Run stbt command in a docker container
 #/     lint           Static analysis of stbt scripts
 #/     power          Control networked power switch
 #/     screenshot     Capture a single screenshot
